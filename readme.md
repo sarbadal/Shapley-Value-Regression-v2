@@ -42,7 +42,7 @@ of X in which the pth regressor appears and <img src="https://render.githubuserc
 out. The sum of all <img src="https://render.githubusercontent.com/render/math?math=S(p)"> for p=1, m (that is, <img src="https://render.githubusercontent.com/render/math?math=\sum_{p=1}^{m}(p)">  is the <img src="https://render.githubusercontent.com/render/math?math=R^2"> of <img src="https://render.githubusercontent.com/render/math?math=y = X\beta + u"/> : (all <img src="https://render.githubusercontent.com/render/math?math=x_j \in X">) or the
 total value of the game = <img src="https://latex.codecogs.com/svg.latex?\Large&space;R^2 = \sum_{p=1}^{m}S(p) = \sum_{p=1}^{m}(1/m)\sum_{r=1}^{k}\left\{\sum_{c=1}^{k}[R^2(p,r)-R^2(q, r-1)]\right\}/k" title="\Large R^2 = \sum_{p=1}^{m}S(p) = \sum_{p=1}^{m}(1/m)\sum_{r=1}^{k}\left\{\sum_{c=1}^{k}[R^2(p,r)-R^2(q, r-1)]\right\}/k" />
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 ### Computational details of share of <img src="https://render.githubusercontent.com/render/math?math=X_j"> in <img src="https://render.githubusercontent.com/render/math?math=R^2">:
 
