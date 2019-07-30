@@ -27,10 +27,10 @@ estimated regression coefficients (Mishra, 2004-a).
 
 
 ### Shapley value regression:
-> This is an entirely different strategy to assess the contribution of
+This is an entirely different strategy to assess the contribution of
 regressor variables to the regressand variable. It owes its origin in the theory of cooperative
-games (Shapley, 1953). The value of <img  src="https://render.githubusercontent.com/render/math?math=$R^2$" width="" height=""> obtained by fitting a linear regression model y=Xβ+u is
-considered as the value of a cooperative game played by X (whose members, xj ϵ X; j=1, m,
+games (Shapley, 1953). The value of <img  src="https://render.githubusercontent.com/render/math?math=$R^2$" width="" height=""> obtained by fitting a linear regression model <img align="bottom" src="https://latex.codecogs.com/svg.latex?\Large&space;y=X\beta+u" /> is
+considered as the value of a cooperative game played by X (whose members, <img src=https://latex.codecogs.com/svg.latex?\Large&space;x_j \in X; j=1, m" />,
 work in a coalition) against y (explaining it). The analyst does not have enough information to
 disentangle the contributions made by the individual members <img src="https://render.githubusercontent.com/render/math?math=x_j \in X; j=1, m">, but only their joint
 1 contribution (<img src="https://render.githubusercontent.com/render/math?math=R^2">) is known. The Shapley value decomposition imputes the most likely
