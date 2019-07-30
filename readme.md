@@ -38,7 +38,7 @@ contribution of each individual <img src="https://render.githubusercontent.com/r
 
 ### An algorithm to impute the contribution of individual variables to Shapley value:
 <p>
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\text{Let there be m number of regressor variables in the model }y=X\beta+u" /> 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;y=X\beta+u" /> 
 </p>
 
 
