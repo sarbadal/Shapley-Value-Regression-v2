@@ -37,7 +37,7 @@ disentangle the contributions made by the individual members <img src="https://r
 contribution of each individual <img src="https://render.githubusercontent.com/render/math?math=x_j \in X; j=1, m">, to <img src="https://render.githubusercontent.com/render/math?math=$R^2$">.
 
 ### An algorithm to impute the contribution of individual variables to Shapley value:
-<img src="https://render.githubusercontent.com/render/math?math=\text{Hello! }y=X\beta+u" /> 
+<img src="https://render.githubusercontent.com/render/math?math=\text{Let there be m number of regressor variables in the model }y=X\beta+u\text{ be the r-membered subset of X in which the pth regressor appears and }X(q, r)\text{ be the r-membered subset of X in which the }p^(th)\text{ regressor does not appear. Further, let }R^2(p, r)\text{ be the }R^2\text{ obtained by regression of y on }X(q, r)\text{. Then, the share of the regressor variable p (that is }x_p\inX\text{ is given by }S(p)=(1/m)\left\{\sum_{i=1}^{m}[R^2(p,r)-R^2(q,r1)]\right\}/k.\text{ Moreover, }R^2(q,0)=0\text{. Here k is the number of cases in which the evaluation in [.] was carried out. The sum of all }S(p)\text{ for p=1, m (that is, }\sum_{p=1}^{m}(p)\text{ is the }R^2\text{ of }y=X\beta+u\text{ : (all }x_j\inX\text{ or the total value of the game = }R^2=\sum_{p=1}^{m}S(p)=\sum_{p=1}^{m}(1/m)\sum_{r=1}^{k}\left\{\sum_{c=1}^{k}[R^2(p,r)-R^2(q,r-1)]_c\right\}/k\text{.}" /> 
 
 
 
