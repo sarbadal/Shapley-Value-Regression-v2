@@ -37,9 +37,9 @@ disentangle the contributions made by the individual members <img src="https://r
 contribution of each individual <img src="https://render.githubusercontent.com/render/math?math=x_j \in X; j=1, m">, to <img src="https://render.githubusercontent.com/render/math?math=$R^2$">.
 
 ### An algorithm to impute the contribution of individual variables to Shapley value:
-<p>
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\text {Hello! } y=X\beta+u" /> 
-</p>
+
 
 
 ### Computational details of share of <img src="https://render.githubusercontent.com/render/math?math=X_j"> in <img src="https://render.githubusercontent.com/render/math?math=R^2">:
